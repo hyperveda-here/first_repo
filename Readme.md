@@ -39,6 +39,8 @@ Edit
 ssh-keygen -t ed25519 -C "your.email@example.com"
 Press Enter to accept default save location.
 
+to see generated ssh key :   cat ~/.ssh/id_ed25519.pub
+
 (Optional) Enter a passphrase or leave empty.
 
 This generates private key (id_ed25519) and public key (id_ed25519.pub) in C:\Users\<User>\.ssh\
